@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Museumr</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+
+<div class="nav">
+    <li></li>
+    <li></li>
+</div>
+
+<div class="results-div"></div>
+
+<template id="artist-form">
+<div class="artist">
+    <h1 id="name">{{name}}</h1>
+</div>
+<div class="artist-image">
+    <img src="{{image}}" alt="">
+</div>
+<div class="artist-info">
+    <p>{{nationality}}</p>
+    <p>{{birthYear}}</p>
+    <p>{{description}}</p>
+</div>
+</template>
+
+<template id="painting-form">
+    <div class=""></div>
+</template>
+
+<template id="new-artist-form"></template>
+
+<template id="new-painting-form"></template>
+
+<template id="edit-artist-form"></template>
+
+<template id="edit-painting-form"></template>
+
+<script src="/bower_components/handlebars/handlebars.js"></script>
+<script src="/bower_components/jquery/dist/jquery.min.js"></script>
+<script src="/js/app.js"></script>
+</body>
+</html>
